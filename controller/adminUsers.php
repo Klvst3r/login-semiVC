@@ -1,6 +1,6 @@
 <?php
 
-include_once './model/Usuario.php';
+include_once './model/user.php';
 include_once 'validateForms.php';
 /**
  *  Class to manage operations with users in the Database
