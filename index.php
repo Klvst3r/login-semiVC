@@ -32,7 +32,7 @@
                     <input type="submit" id="login" name="login" value="Entrar">
                 </div>  
                 <div id="enlace_registro">
-                    <a href="formulario_registro.php"> Registrarse </a>
+                    <a href="form_reg_user.php"> Registrarse </a>
                 </div>
             </form> 
                
