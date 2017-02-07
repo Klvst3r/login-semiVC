@@ -3,7 +3,7 @@
 /**
  * Clase para validar los distintos campos de los formularios de registro.
  *
- * @author Ivan
+ * @author Klvst3r
  */
 class validadorFormularios {
     

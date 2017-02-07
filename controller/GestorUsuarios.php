@@ -5,7 +5,7 @@ include_once 'validadorFormularios.php';
 /**
  * Clase para gestionar las operaciones con los usuarios en la base de datos.
  *
- * @author Ivan
+ * @author Klvst3r
  */
 class GestorUsuarios {
     

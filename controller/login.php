@@ -14,7 +14,7 @@
         $_SESSION['id'] = $_POST['usuario'];
         $_SESSION['password'] = $_POST['password'];
      
-        header("Location:../pagina1.php");
+        header("Location:../home.php");
     }else{
         $conexion->close();
         header("Location:../index.php?error=error");
