@@ -1,0 +1,102 @@
+
+
+.campoFormulario {
+    margin-bottom: 5px;
+}
+
+#formulario_login {
+    border: 2px solid #DDD;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 350px;
+    margin: 200px auto;
+}
+
+#formulario_registro {
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 450px;
+    margin: 80px auto;
+}
+
+#formulario_login label {
+    color: #000;
+    width: 80px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#formulario_registro label {
+    color: #000;
+    width: 150px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 2px;
+}
+
+#formulario_registro h2, #formulario_login h2 {
+    color: #AAA;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#formulario_login form,  #formulario_registro form{
+    padding: 30px 30px 10px;
+}
+
+#formulario_login input[type="submit"], #formulario_registro input[type="submit"] {
+    background: #AAA;
+    color: #fff;
+    padding: 2px 30px;
+    border-radius: 5px;
+
+    display: block;
+    margin: 20px auto;
+}
+
+#formulario_registro input[type="submit"] {
+    padding: 2px 20px;
+}
+
+#formulario_login input[type="submit"]:hover, #formulario_registro input[type="submit"]:hover {
+    background: #BBB;
+}
+
+#formulario_login input[type="text"], #formulario_login input[type="password"],
+#formulario_registro input[type="text"], #formulario_registro input[type="password"] {
+    padding-left: 5px;
+    width: 150px;
+    color: #504f4f;
+    border: 1px solid #c4c4c4;
+}
+
+#formulario_login input[type="text"]:hover, #formulario_login input[type="text"]:selected,
+#formulario_registro input[type="text"]:hover, #formulario_registro input[type="text"]:selected {
+    border: 1px solid #DD7B17 !important; 
+}
+
+
+
+.obligatorio {
+    color: red;
+}
+
+.errorUsuario {
+    color: red;
+    text-align: center;
+}
+
+#enlace_registro{
+    text-align: right;
+    padding-right: 25px;    
+}
+
+#enlace_registro a{
+    text-decoration: none;
+    color: #AAA;
+}
+
+#enlace_registro a:hover{
+    color: #DDD;
+}

@@ -10,7 +10,7 @@
     
     <?php
         session_start();
-        // check if the user beggin session
+        // Check if the user was beggin session
         if(isset($_SESSION['id'])){
             header("Location:home.php");
         }
@@ -20,19 +20,19 @@
         <div id="formulario_login">
             <h2>Login</h2>
         	<form action="controller/login.php" method="POST">
-                <div class="fieldForm">
-                    <label for="usuario">Usuario:</label>
+                <div class="campoFormulario">
+                    <label for="usuario">User:</label>
                     <input type='text' name="usuario" maxlength="15"/>
                 </div>
-                <div class="fieldForm">
-                    <label for="password">Contraseña:</label>
+                <div class="campoFormulario">
+                    <label for="password">Pass:</label>
                     <input type='password' name="password" maxlength="20"/>
                 </div>
-                <div class="buttonForm">
+                <div class="botonFormulario">
                     <input type="submit" id="login" name="login" value="Entrar">
                 </div>  
                 <div id="enlace_registro">
-                    <a href="reg_user.php"> Registrarse </a>
+                    <a href="formulario_registro.php"> Registrarse </a>
                 </div>
             </form> 
                
