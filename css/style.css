@@ -100,3 +100,17 @@
 #enlace_registro a:hover{
     color: #DDD;
 }
+
+#link_logout{
+    text-align: center;
+    padding-right: 25px;    
+}
+
+#link_logout a{
+    text-decoration: none;
+    color: #AAA;
+}
+
+#link_logout a:hover{
+    color: #DDD;
+}
