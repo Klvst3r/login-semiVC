@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Description of Users
+ * Description of Usuarios
  *
  * @author Klvst3r
  */
-class User {
+class Usuario {
     
     private $id;
     private $nombre;

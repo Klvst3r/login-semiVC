@@ -1,7 +1,7 @@
 <?php
 
     include 'config.php';
-    require_once 'adminUsers.php';
+    require_once 'GestorUsuarios.php';
     
     
     $conexion = new mysqli($servidor, $usuarioBD, $passwordBD, $baseDatos);
@@ -14,7 +14,7 @@
         $_SESSION['id'] = $_POST['usuario'];
         $_SESSION['password'] = $_POST['password'];
      
-        header("Location:../home.php");
+        header("Location:../pagina1.php");
     }else{
         $conexion->close();
         header("Location:../index.php?error=error");
